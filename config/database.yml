@@ -1,0 +1,17 @@
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: countdown
+  pool: 5
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: countdown_dev
+  pool: 5
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: countdown_test
+  pool: 5
